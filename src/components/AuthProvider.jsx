@@ -32,6 +32,6 @@ export const AuthProvider = ({ children, onUserLoggedIn, onUserNotLoggedIn, onUs
     });
   }, [navigate, onUserLoggedIn, onUserNotLoggedIn, onUserNotRegistered]);
   return (
-    <div>AuthProvider</div>
+    <div>{children}</div>
   )
 }
