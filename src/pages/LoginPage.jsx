@@ -15,6 +15,7 @@ export const LoginPage = () => {
   4: no hay nadie logueado
   5: ya existe username
   6: nuevo username, click para continuar
+  7: username no existe
   */
   const [state, setState] = useState(0);
 

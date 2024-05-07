@@ -137,3 +137,17 @@ export const getProfilePhotoUrl = async (profilePicture) => {
     console.log(error);
   }
 };
+// aqui es para enviar imagenes a firebase ----------- es hasta aqui
+
+export const getUserPublicProfileInfo = async (uid) => {
+  try {
+    const profileInfo = await getUserInfo(uid);
+    const linksInfo = await getLinks(uid);
+    return {
+      profileInfo,
+      linksInfo
+    }
+  } catch (error) {
+    console.log(error);
+  }
+};
