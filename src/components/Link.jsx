@@ -61,7 +61,7 @@ export const Link = ({ docId, title, url, onDelete, onUpdate }) => {
               </>
             ) : (
               <>
-                <button onClick={handleEditTitle}>Edit</button>
+                <button onClick={handleEditTitle}>Editar</button>
                 {currentTitle}
               </>
             )
@@ -75,7 +75,7 @@ export const Link = ({ docId, title, url, onDelete, onUpdate }) => {
               </>
             ) : (
               <>
-                <button onClick={handleEditUrl}>Edit</button>
+                <button onClick={handleEditUrl}>Editar</button>
                 {currentUrl}
               </>
             )
@@ -83,7 +83,7 @@ export const Link = ({ docId, title, url, onDelete, onUpdate }) => {
         </div>
       </div>
       <div>
-        <button onClick={handleDelete}>Delete</button>
+        <button onClick={handleDelete}>Eliminar</button>
       </div>
     </div>
   )

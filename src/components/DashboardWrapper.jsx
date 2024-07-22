@@ -6,8 +6,8 @@ export const DashboardWrapper = ({ children }) => {
       <nav>
         <div>Logotipo</div>
         <Link to='/dashboard'>Links</Link>
-        <Link to='/dashboard/profile'>Profile</Link>
-        <Link to='/signout'>Signout</Link>
+        <Link to='/dashboard/profile'>Perfil</Link>
+        <Link to='/signout'>Cerrar Sesión</Link>
       </nav>
       <div>
         {children}
