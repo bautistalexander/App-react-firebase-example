@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route  } from 'react-router-dom';
-import App from './App.jsx';
+// import App from './App.jsx';
 import { LoginPage } from './pages/LoginPage.jsx';
 import { DashboardPage } from './pages/DashboardPage.jsx';
 import { ProfilePage } from './pages/ProfilePage.jsx';
@@ -11,7 +11,7 @@ import { ChooseUserPage } from './pages/ChooseUserPage.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App />} />
+      <Route path='/' element={<LoginPage />} />
       <Route path='/login' element={<LoginPage />} />
       <Route path='/dashboard' element={<DashboardPage />} />
       <Route path='/dashboard/profile' element={<ProfilePage />} />

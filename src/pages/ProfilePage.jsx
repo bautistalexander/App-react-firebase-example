@@ -63,12 +63,12 @@ export const ProfilePage = () => {
 
     <DashboardWrapper>
       <div>
-        <h2>Edit Profile Info</h2>
+        <h2>Editar Información de Perfil</h2>
         <div>
           <img src={profileUrl} alt='' width={100} />
         </div>
         <div>
-          <button onClick={handleOpenFilePicker}>Choose new profile picture</button>
+          <button onClick={handleOpenFilePicker}>Seleeciona una nueva imagen</button>
           <input ref={fileRef} type='file' style={{ display: 'none' }} onChange={handleChangeFile} />
         </div>
       </div>

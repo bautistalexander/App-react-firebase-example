@@ -33,7 +33,7 @@ export const PublicProfilePage = () => {
 
   if (state === 7) {
     return (
-      <div>Username doesn't exist</div>
+      <div>El nombre de usuario no existe</div>
     );
   }
 

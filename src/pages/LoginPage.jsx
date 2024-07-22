@@ -69,7 +69,7 @@ export const LoginPage = () => {
   //   return (<div>Estas autenticado pero no registrado</div>);
   // }
   if (state === 4) {
-    return (<button onClick={handleOnClick}>Login with Google</button>);
+    return (<button onClick={handleOnClick}>Registrarse con Google</button>);
   }
 
   return (
@@ -78,7 +78,7 @@ export const LoginPage = () => {
       onUserNotRegistered={handleUserNotRegistered}
       onUserNotLoggedIn={handleUserNotLoggedIn}
     >
-      <div>Loading...</div>
+      <div>Cargando...</div>
     </AuthProvider>
   );
 }

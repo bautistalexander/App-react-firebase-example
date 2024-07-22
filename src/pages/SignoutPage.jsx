@@ -1,6 +1,6 @@
 
 export const SignoutPage = () => {
   return (
-    <div>Signout</div>
+    <div>Cerrar Sesión</div>
   )
 }

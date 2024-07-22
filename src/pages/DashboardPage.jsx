@@ -89,13 +89,13 @@ export const DashboardPage = () => {
       <div>
         <h1>Dashboard</h1>
         <form onSubmit={handleOnSubmit}>
-          <label htmlFor='title'>Title</label>
+          <label htmlFor='title'>Título</label>
           <input type='text' name='title' onChange={handleOnChange} />
 
           <label htmlFor='url'>Url</label>
           <input type='text' name='url' onChange={handleOnChange} />
 
-          <input type='submit' value='Cretate new Link' />
+          <input type='submit' value='Crear nuevo Link' />
         </form>
 
         <div>
